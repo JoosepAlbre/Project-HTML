@@ -1,6 +1,18 @@
+body {
+    height: 100%;
+    margin: 0;
+}
+
+
 h1 {
     font-size: 50px;
 }
 .avaleht {
+    background-size: 2200 px 1237 px;
     background-image:url("Lumiere koolitus 16.11-274-Edit.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
