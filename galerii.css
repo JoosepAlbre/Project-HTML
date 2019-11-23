@@ -1,0 +1,71 @@
+body {
+    background-color: #494B48;
+}
+
+.galerii {
+    top: 10%;
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.slaidiesitlus {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+.pildid {
+    display: none;
+}
+
+.pildiallkiri {
+    color: azure;
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+    bottom: 8px;
+    padding: 8px 12px;
+}
+
+.eelmine, .järgmine {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    color: azure;
+    margin-top: -22px;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.järgmine {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.täpid {
+    text-align: center;
+}
+.mummu {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.pildinr {
+    color: azure;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
