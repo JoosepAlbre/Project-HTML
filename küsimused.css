@@ -1,22 +1,36 @@
 body {
     background-color: #494B48;
 }
-
-div.küsimusedvastused{
-    position: absolute;
-    left: 30px;
+.kkk{
+    position: relative;
+    text-align: center;
+    margin-top: 3%;
+    font-size: 250%;
 }
 
+.küsimusedvastused{
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    margin-right: 5%;
+    text-align: left;
+}
 
 dt {
     color: #FFE9DB;
     font-family: monospace;
-    font-size: 25px   
+    font-size: 200%;   
 }
 
 dd {
     color: #FFE9DB;
     font-family: monospace;
-    font-size: 15px;
-    left: 20px;
+    font-size: 150%;
+    left: 1%;
+}
+
+.pilt{
+    float: right;
+    width: 250px;
+    height: 100%;
 }
