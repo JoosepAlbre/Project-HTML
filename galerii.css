@@ -1,5 +1,5 @@
 body {
-    background-color: #494B48;
+    background-color: #2b2b33;
 }
 
 .galerii {
@@ -7,12 +7,20 @@ body {
     width: 100%;
 }
 
+.vertgalerii {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    top: 5%;
+    float:right;
+}
+
 img {
     max-width: 100%;
+    object-fit: cover;
 }
 
 .slaidiesitlus {
-    max-width: 1000px;
+    max-width: 815px;
     position: relative;
     margin: auto;
 }
@@ -20,13 +28,12 @@ img {
     display: none;
 }
 
-.pildiallkiri {
+.pildinr {
     color: azure;
-    font-size: 15px;
-    text-align: center;
-    width: 100%;
-    bottom: 8px;
+    font-size: 12px;
     padding: 8px 12px;
+    text-align: right;
+    top: 0;
 }
 
 .eelmine, .järgmine {
@@ -48,9 +55,14 @@ img {
     border-radius: 3px 0 0 3px;
 }
 
-.täpid {
+.eelmine:hover, .järgmine:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.tapid {
     text-align: center;
 }
+
 .mummu {
     cursor: pointer;
     height: 15px;
@@ -61,7 +73,9 @@ img {
     display: inline-block;
     transition: background-color 0.6s ease;
 }
-
+.active, .mummu:hover {
+    background-color: #717171;
+}
 .pildinr {
     color: azure;
     font-size: 12px;
@@ -69,3 +83,20 @@ img {
     position: absolute;
     top: 0;
 }
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
