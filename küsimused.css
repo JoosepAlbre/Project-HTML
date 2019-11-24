@@ -17,13 +17,13 @@ body {
 }
 
 dt {
-    color: #FFE9DB;
+    color: azure;
     font-family: monospace;
     font-size: 200%;   
 }
 
 dd {
-    color: #FFE9DB;
+    color:azure;
     font-family: monospace;
     font-size: 150%;
     left: 1%;
