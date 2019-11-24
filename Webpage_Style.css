@@ -1,6 +1,7 @@
 body {
     height: 100%;
     margin: 0;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -40,4 +41,55 @@ h1 {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    min-height: 8vh;
+}
+
+.nav-links {
+    position: absolute;
+    left: 0px;
+    height: 100vh;
+    top: 0vh;
+    background-color: rgb(255, 93, 93);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateX(100%);
+    justify-content: space-around;
+    width: 30%;
+    transition: transform 5s ease-in;
+}
+
+.nav-links li {
+    opacity: 0;
+    list-style: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+
+.burger {
+    cursor: pointer;
+}
+
+.burger div {
+    width: 40px;
+    height: 5px;
+    background-color: azure;
+    margin: 7px;
+}
+
+.nav-active {
+    transform: translateX(0%);
 }
