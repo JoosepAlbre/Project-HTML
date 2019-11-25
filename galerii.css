@@ -10,8 +10,8 @@ body {
 .vertgalerii {
     writing-mode: vertical-rl;
     text-orientation: upright;
-    top: 5%;
-    float:right;
+    top: 10%;
+    margin-right: 20%;
 }
 
 img {
@@ -24,7 +24,8 @@ img {
     position: relative;
     margin: auto;
 }
-.pildid {
+
+.mySlides {
     display: none;
 }
 
@@ -34,9 +35,12 @@ img {
     padding: 8px 12px;
     text-align: right;
     top: 0;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.eelmine, .järgmine {
+.eelmine,
+.järgmine {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -55,8 +59,9 @@ img {
     border-radius: 3px 0 0 3px;
 }
 
-.eelmine:hover, .järgmine:hover {
-    background-color: rgba(0,0,0,0.8);
+.eelmine:hover,
+.järgmine:hover {
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .tapid {
@@ -73,9 +78,12 @@ img {
     display: inline-block;
     transition: background-color 0.6s ease;
 }
-.active, .mummu:hover {
+
+.active,
+.mummu:hover {
     background-color: #717171;
 }
+
 .pildinr {
     color: azure;
     font-size: 12px;
@@ -89,14 +97,22 @@ img {
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
     animation-duration: 1.5s;
-  }
-  
-  @-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
-  
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
