@@ -11,7 +11,7 @@ body {
     writing-mode: vertical-rl;
     text-orientation: upright;
     top: 5%;
-    float:right;
+    margin-right: 20%;
 }
 
 img {
@@ -24,7 +24,7 @@ img {
     position: relative;
     margin: auto;
 }
-.pildid {
+.mySlides {
     display: none;
 }
 
@@ -34,6 +34,8 @@ img {
     padding: 8px 12px;
     text-align: right;
     top: 0;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .eelmine, .järgmine {

@@ -8,12 +8,12 @@ function plusSlides(n) {
 
 // Thumbnail image controls
 function currentSlide(n) {
-  showSlides(slideIndex = n);
+showSlides(slideIndex = n);
 }
 
 function showSlides(n) {
   var i;
-  var slides = document.getElementsByClassName("pildid");
+  var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("mummu");
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
