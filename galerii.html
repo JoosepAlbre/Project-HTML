@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="et">
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
@@ -8,69 +9,90 @@
     <script src="galerii.js"defer></script>
     <title>Galerii</title>
 </head>
+
 <body>
-        <div><h1 class="vertgalerii">&boxv;GALERII&boxv;</h1></div>
+    <div class="dropdown">
+        <span>
+            
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </span>
+        <div class="dropdown-content">
+            <p><a href="nimeta_ümber.html">Home</a></p>
+            <p><a href="essavaheleht.html">Tutvustus</a></p>
+            <p><a href="meist.html">Meist</a></p>
+            <p><a href="galerii.html">Galerii</a></p>
+        </div>
+    </div>
+
+    <div>
+        <h1 class="vertgalerii">&vert;GALERII&vert;</h1>
+    </div>
 
     <div class="slaidiesitlus">
 
-    <div class="mySlides fade"> 
-        <div class="pildinr">1 / 10</div>   
-        <img src="galerii/1.jpg">
-    </div>
+        <div class="mySlides fade">
+            <div class="pildinr">1 / 10</div>
+            <img src="galerii/1.jpg">
+        </div>
 
-    <div class="mySlides fade">
-            <div class="pildinr">2 / 10</div>   
+        <div class="mySlides fade">
+            <div class="pildinr">2 / 10</div>
             <img src="galerii/2.jpg">
-    </div>
-    <div class="mySlides fade">
-            <div class="pildinr">3 / 10</div>   
+        </div>
+        <div class="mySlides fade">
+            <div class="pildinr">3 / 10</div>
             <img src="galerii/3.jpg">
-    </div>
-    <div class="mySlides fade">
-            <div class="pildinr">4 / 10</div>   
+        </div>
+        <div class="mySlides fade">
+            <div class="pildinr">4 / 10</div>
             <img src="galerii/4.jpg">
-    </div>
-    <div class="mySlides fade">
-            <div class="pildinr">5 / 10</div>   
+        </div>
+        <div class="mySlides fade">
+            <div class="pildinr">5 / 10</div>
             <img src="galerii/5.jpg">
-    </div>
-    <div class="mySlides fade">
-            <div class="pildinr">6 / 10</div>   
+        </div>
+        <div class="mySlides fade">
+            <div class="pildinr">6 / 10</div>
             <img src="galerii/6.jpg">
-    </div>
-    <div class="mySlides fade">
-            <div class="pildinr">7 / 10</div>   
+        </div>
+        <div class="mySlides fade">
+            <div class="pildinr">7 / 10</div>
             <img src="galerii/7.jpg">
-    </div>
-    <div class="mySlides fade">
-            <div class="pildinr">8 / 10</div>   
+        </div>
+        <div class="mySlides fade">
+            <div class="pildinr">8 / 10</div>
             <img src="galerii/8.jpg">
-    </div>
-    <div class="mySlides fade">
-            <div class="pildinr">9 / 10</div>   
+        </div>
+        <div class="mySlides fade">
+            <div class="pildinr">9 / 10</div>
             <img src="galerii/9.jpg">
-    </div>
-    <div class="mySlides fade">
-            <div class="pildinr">10 / 10</div>   
+        </div>
+        <div class="mySlides fade">
+            <div class="pildinr">10 / 10</div>
             <img src="galerii/10.jpg">
+        </div>
+
+        <a class="eelmine" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="järgmine" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="tapid">
+            <span class="mummu" onclick="currentSlide(1)"></span>
+            <span class="mummu" onclick="currentSlide(2)"></span>
+            <span class="mummu" onclick="currentSlide(3)"></span>
+            <span class="mummu" onclick="currentSlide(4)"></span>
+            <span class="mummu" onclick="currentSlide(5)"></span>
+            <span class="mummu" onclick="currentSlide(6)"></span>
+            <span class="mummu" onclick="currentSlide(7)"></span>
+            <span class="mummu" onclick="currentSlide(8)"></span>
+            <span class="mummu" onclick="currentSlide(9)"></span>
+            <span class="mummu" onclick="currentSlide(10)"></span>
+        </div>
     </div>
-    
-    <a class="eelmine" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="järgmine" onclick="plusSlides(1)">&#10095;</a>
-    
-    <div class="tapid">
-            <span class="mummu" onclick="currentSlide(1)"></span> 
-            <span class="mummu" onclick="currentSlide(2)"></span> 
-            <span class="mummu" onclick="currentSlide(3)"></span> 
-            <span class="mummu" onclick="currentSlide(4)"></span> 
-            <span class="mummu" onclick="currentSlide(5)"></span> 
-            <span class="mummu" onclick="currentSlide(6)"></span> 
-            <span class="mummu" onclick="currentSlide(7)"></span> 
-            <span class="mummu" onclick="currentSlide(8)"></span> 
-            <span class="mummu" onclick="currentSlide(9)"></span> 
-            <span class="mummu" onclick="currentSlide(10)"></span> 
     </div>
-</div>
-</div>
 </body>
+
 </html>
