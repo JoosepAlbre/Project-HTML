@@ -1,0 +1,102 @@
+body {
+    background-color: #2b2b33;
+}
+
+.galerii {
+    top: 10%;
+    width: 100%;
+}
+
+.vertgalerii {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    top: 5%;
+    float:right;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.slaidiesitlus {
+    max-width: 815px;
+    position: relative;
+    margin: auto;
+}
+.pildid {
+    display: none;
+}
+
+.pildinr {
+    color: azure;
+    font-size: 12px;
+    padding: 8px 12px;
+    text-align: right;
+    top: 0;
+}
+
+.eelmine, .järgmine {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    color: azure;
+    margin-top: -22px;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.järgmine {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.eelmine:hover, .järgmine:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.tapid {
+    text-align: center;
+}
+
+.mummu {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active, .mummu:hover {
+    background-color: #717171;
+}
+.pildinr {
+    color: azure;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }

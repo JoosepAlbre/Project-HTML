@@ -1,7 +1,37 @@
 body {
-    background-color: #494B48;
+    background-color: #2b2b33;
 }
-h2 {
-    color: #FFE9DB;
-    font-family: monospace;
+.kkk{
+    position: relative;
+    text-align: center;
+    left: 2%;
+    margin-top: 3%;
+    font-size: 250%;
+}
+
+.küsimusedvastused{
+    position: absolute;
+    top: 20%;
+    left: 17%;
+    margin-right: 5%;
+    text-align: left;
+}
+
+dt {
+    color: azure;    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;   
+}
+
+dd {
+    color:azure;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 115%;
+    left: 1%;
+}
+
+.pilt{
+    float: right;
+    width: 250px;
+    height: 100%;
 }
