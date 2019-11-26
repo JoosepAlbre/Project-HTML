@@ -3,15 +3,17 @@ body {
 }
 
 .galerii {
-    top: 10%;
+    top: 0%;
     width: 100%;
 }
 
 .vertgalerii {
-    writing-mode: vertical-rl;
-    text-orientation: upright;
-    top: 10%;
-    margin-right: 20%;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    margin-top: 0%;
+    font-size: 250%;
+    margin-bottom: 20px;
 }
 
 img {
@@ -20,7 +22,7 @@ img {
 }
 
 .slaidiesitlus {
-    max-width: 750px;
+    max-width: 670px;
     position: relative;
     margin: auto;
 }
