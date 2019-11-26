@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="et">
 
-</html>
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="küsimused.css" rel="stylesheet">
     <link href="Webpage_Style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="kkk.js"></script>
+    <!--https://www.w3schools.com/howto/howto_js_accordion.asp-->
     <title>Korduma kippuvad küsimused</title>
 </head>
 
@@ -28,24 +28,39 @@
             <p><a href="galerii.html">Galerii</a></p>
         </div>
     </div>
-    <div class="pealkiriküsimused">
-        <h1 class="kkk">&boxh;&boxh;&boxh; Korduma kippuvad küsimused &boxh;&boxh;&boxh;</h1>
-    </div>
-    <div class="küsimusedvastused">
+
+    <h1 class="kkk">&boxh;&boxh;&boxh; Korduma kippuvad küsimused &boxh;&boxh;&boxh;</h1>
+
+
+    <img class="pilt" src="833R0458.jpg">
+
+    <div class="kkk_küsimused">
         <p>
-            <img class="pilt" src="833R0458.jpg">
-            <dl>
-                <dt>"Kas te olete kaksikud?"</dt>
-                <dd>- Jah, nii see tõesti on!</dd>
-                <dt>"Kas teie vanemad ka teid segamini ajavad?"</dt>
-                <dd>- Vahest harva juhtub, kuid üldiselt mitte.</dd>
-                <dt>"Kumb teist vanem on?"</dt>
-                <dd>- Sandra on täpselt 1 minut vanem.</dd>
-                <dt>"Kuidas teil vahet teha?"</dt>
-                <dd>- Igal inimesel on erinevad asjad mille järgi vahet tehakse. Kõige rohkem eristatakse aga selle järgi, et Sarah'l on kaelal sünnimärk, kuid Sandral pole.</dd>
-                <dt>"Kas te pahandate, kui teid segamini aetakse?"</dt>
-                <dd>- Ei pahanda üldse, oleme sellega harjunud ning just hindame, kui inimesed üritavad leida asju, mille järgi nemad meil vahet teha suudavad ning selle tõttu eksivad.</dd>
-            </dl>
+
+            <button class="küsimus">"Kas te olete kaksikud?"</button>
+            <div class="vastus">
+                <p>Jah, nii see on!</p>
+            </div>
+
+            <button class="küsimus">"Kas teie vanemad ka teid segamini ajavad?"</button>
+            <div class="vastus">
+                <p>Vahest harva juhtub, kuid üldiselt mitte.</p>
+            </div>
+
+            <button class="küsimus">"Kumb teist vanem on?</button>
+            <div class="vastus">
+                <p>Sandra on täpselt 1 minut vanem.</p>
+            </div>
+
+            <button class="küsimus">"Kuidas teil vahet teha?"</button>
+            <div class="vastus">
+                <p>Igal inimesel on erinevad asjad mille järgi vahet tehakse. Kõige rohkem eristatakse aga selle järgi, et Sarah'l on kaelal sünnimärk, kuid Sandral pole.</p>
+            </div>
+
+            <button class="küsimus">"Kas te pahandate, kui teid segamini aetakse?"</button>
+            <div class="vastus">
+                <p>Ei pahanda üldse, oleme sellega harjunud ning just hindame, kui inimesed üritavad leida asju, mille järgi nemad meil vahet teha suudavad ning selle tõttu eksivad.</p>
+            </div>
         </p>
     </div>
     <footer class="jaluts">
