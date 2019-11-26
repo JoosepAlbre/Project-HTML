@@ -9,7 +9,7 @@ for (i = 0; i < acc.length; i++) {
     /* Toggle between hiding and showing the active vastus */
     var vastus = this.nextElementSibling;
     console.log(vastus);
-    if (vastus.style.display == "block") {
+    if (vastus.style.display === "block") {
       vastus.style.display = "none";
     } else {
       vastus.style.display = "block";
