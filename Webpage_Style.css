@@ -90,6 +90,7 @@ h1 {
 
 .dropdown-content a:hover {
     background-color: #D08A80;
+    padding: 3%;
 }
 
 .dropdown-content a {
@@ -101,7 +102,7 @@ h1 {
 }
 
 .jaluts {
-    background-color: rgb(88, 81, 81);
+    background-color: #D08A80;
     position: fixed;
     width: 100%;
     bottom: 0;
@@ -109,7 +110,8 @@ h1 {
 }
 
 .copyright-text {
-    color: darkgray;
+    font-weight: bold;
+    color: #33333b;
     padding-top: 10px;
     padding-left: 20px;
     font-size: 16px;
@@ -151,8 +153,8 @@ h1 {
 }
 
 .social-icons a {
-    background-color: #eceeef;
-    color: #918181;
+    background-color: azure;
+    color: #33333b;
     font-size: 16px;
     display: inline-block;
     line-height: 44px;
