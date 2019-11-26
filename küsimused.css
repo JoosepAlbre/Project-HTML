@@ -1,28 +1,43 @@
 body {
     background-color: #2b2b33;
 }
+.kkk {
+    position: relative;
+    text-align: center;
+    left: 2%;
+    margin-top: 0%;
+    font-size: 250%;
+    margin-bottom: 10px;
+}
 .kkk_küsimused{
-  margin: 10px;
+    margin: 10px;
     position: relative;
     text-align: left;
     left: 15%;
     margin-top: 3%;
     font-size: 250%;
+    margin: 20px;
 }
 
-.küsimusedvastused{
-    position: absolute;
+.pealkiriküsimused {
+    margin-bottom: 20px;
+}
+
+.küsimusedvastused {
+    position: relative;
     top: 20%;
     left: 17%;
     margin-right: 5%;
     text-align: left;
+    max-width: 1200px;
 }
 .pildidiv {
   margin: 5%;
 }
-.pilt{
+
+.pilt {
     float: right;
-    width: 250px;
+    width: 300px;
     height: 100%;
 }
 
@@ -39,7 +54,7 @@ body {
     outline: none;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-  }
+}
 
   .active, .küsimus:hover {
     background-color: pink; 
@@ -55,4 +70,4 @@ body {
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
-  }
+}
