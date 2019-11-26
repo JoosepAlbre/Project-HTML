@@ -1,37 +1,45 @@
 body {
     background-color: #2b2b33;
 }
-.kkk{
+
+.kkk {
     position: relative;
     text-align: center;
     left: 2%;
     margin-top: 3%;
     font-size: 250%;
+    margin: 20px;
 }
 
-.küsimusedvastused{
-    position: absolute;
+.pealkiriküsimused {
+    margin-bottom: 20px;
+}
+
+.küsimusedvastused {
+    position: relative;
     top: 20%;
     left: 17%;
     margin-right: 5%;
     text-align: left;
+    max-width: 1200px;
 }
 
 dt {
-    color: azure;    
+    color: azure;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 150%;   
+    font-size: 150%;
 }
 
 dd {
-    color:azure;
+    color: azure;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 115%;
     left: 1%;
 }
 
-.pilt{
+.pilt {
     float: right;
+    margin-right: 10px;
     width: 250px;
     height: 100%;
 }
