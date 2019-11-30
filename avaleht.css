@@ -6,14 +6,14 @@
     text-align: center;
     padding: 0%;
     margin: 0%;
-    font-size: 35px;
+    font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .ennepealkirja {
-    font-size: 30px;
-    color: azure;
-    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    font-size: 25px;
+    text-align: center;
 }
 
 .avaleht {

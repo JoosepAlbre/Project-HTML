@@ -14,7 +14,7 @@ img {
 }
 
 .slaidiesitlus {
-    max-width: 670px;
+    max-width: 700px;
     position: relative;
     margin: auto;
 }
@@ -24,11 +24,11 @@ img {
 }
 
 .pildinr {
-    color: azure;
+    position: absolute;
     font-size: 12px;
     padding: 8px 12px;
     text-align: right;
-    top: 0;
+    top: 15px;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -39,7 +39,6 @@ img {
     position: absolute;
     top: 50%;
     width: auto;
-    color: azure;
     margin-top: -22px;
     padding: 16px;
     font-weight: bold;
@@ -78,13 +77,6 @@ img {
     background-color: #D08A80;
 }
 
-.pildinr {
-    color: azure;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-}
 
 .fade {
     -webkit-animation-name: fade;

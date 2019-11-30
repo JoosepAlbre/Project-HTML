@@ -62,7 +62,8 @@ body {
     display: none;
     color: #D08A80;
     background-color: #2b2b33;
-    font-size: 15px;
+    font-size: 20px;
+    font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
 }
