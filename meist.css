@@ -6,7 +6,7 @@
 }
 
 p {
-    margin: 0 0 12px;
+    margin: 0px;
 }
 
 .video {
@@ -16,6 +16,8 @@ p {
 
 .videodiv {
     position: absolute;
+    margin: 10px;
+    margin-bottom: 100px;
 }
 .pilt1 {
     margin: 13px;
