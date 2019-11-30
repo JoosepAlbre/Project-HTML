@@ -1,0 +1,38 @@
+h1 {
+    position: absolute;
+    left: 0;
+    top: 75%;
+    width: 100%;
+    text-align: center;
+    font-size: 45px;
+    color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+
+.Pealkiri {
+    position: absolute;
+    left: 0;
+    top: 75%;
+    width: 100%;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+}
+
+.ennepealkirja {
+    font-size: 25px;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.avaleht {
+    background-size: 2200 px 1237 px;
+    background-image: url("Lumiere koolitus 16.11-274-Edit.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}

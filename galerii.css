@@ -7,13 +7,8 @@ body {
     width: 100%;
 }
 
-.vertgalerii {
-    display: inline-block;
-    position: relative;
-    text-align: center;
-    margin-top: 0%;
-    font-size: 250%;
-    margin-bottom: 20px;
+.galeriipealkiri {
+    margin-bottom: 100px;
 }
 
 img {

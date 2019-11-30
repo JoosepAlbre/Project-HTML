@@ -1,15 +1,8 @@
 body {
     background-color: #2b2b33;
 }
-.kkk {
-    position: relative;
-    text-align: center;
-    left: 2%;
-    margin-top: 0%;
-    font-size: 250%;
-    margin-bottom: 10px;
-}
-.kkk_küsimused{
+
+.kkk_küsimused {
     margin: 10px;
     position: relative;
     text-align: left;
@@ -31,8 +24,9 @@ body {
     text-align: left;
     max-width: 1200px;
 }
+
 .pildidiv {
-  margin: 5%;
+    margin: 5%;
 }
 
 .pilt {
@@ -45,10 +39,10 @@ body {
     margin: 2px;
     font-weight: bold;
     background-color: #33333b;
-    color:azure;
+    color: azure;
     cursor: pointer;
-    padding: 18px;
-    width: 42%;
+    padding: 12px;
+    width: 50%;
     border: none;
     text-align: left;
     outline: none;
@@ -56,12 +50,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-  .active, .küsimus:hover {
-    background-color: #D08A80; 
-    color:  #33333b;
-  }
+.active,
+.küsimus:hover {
+    background-color: #D08A80;
+    color: #33333b;
+}
 
-  .vastus {
+.vastus {
     margin: 10px;
     width: 40%;
     display: none;
