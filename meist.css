@@ -1,5 +1,5 @@
 .pilt {
-    margin: 10px;
+    margin-left: 20px;
     float: right;
     width: 250px;
     height: 100%;
@@ -14,12 +14,6 @@
     position: absolute;
     margin: 10px;
     margin-bottom: 100px;
-}
-.pilt1 {
-    margin: 13px;
-    float: left;
-    width: 250px;
-    height: 100%;
 }
 
 .meistpealkiri {
