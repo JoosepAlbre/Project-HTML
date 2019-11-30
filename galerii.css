@@ -7,13 +7,10 @@ body {
     width: 100%;
 }
 
-.galeriipealkiri {
-    margin-bottom: 100px;
-}
-
 img {
     max-width: 100%;
     object-fit: cover;
+    margin-top: 15px;
 }
 
 .slaidiesitlus {
@@ -78,7 +75,7 @@ img {
 
 .active,
 .mummu:hover {
-    background-color: #717171;
+    background-color: #D08A80;
 }
 
 .pildinr {
