@@ -159,5 +159,5 @@ h1 {
 }
 
 .social-icons a.instagram:hover {
-    background-color: #dd588b
+    background: linear-gradient( rgb(196, 20, 240), rgb(241, 227, 28));
 }
