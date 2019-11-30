@@ -16,14 +16,6 @@
     margin-bottom: 100px;
 }
 
-.meistpealkiri {
-    text-align: center;
-    left: 2%;
-    margin-top: 0%;
-    font-size: 250%;
-    margin-bottom: 20px;
-}
-
 .tutvustus {
     width: 85%;
     position: relative;
@@ -33,6 +25,6 @@
 }
 
 .tekst{
-        font-size: 150%;
-        text-align: justify;
+    font-size: 150%;
+    text-align: justify;
     }
