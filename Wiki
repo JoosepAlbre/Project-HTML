@@ -1,0 +1,27 @@
+EESMÄRK:
+  Projekti raames loodud veebilehe eesmärk on funktsioneerida kui Lanneste kaksikute "visiitkaardina".
+  Veebilehel on välja toodud vastused enim levinud küsimustele ning lühike tutvustav kirjeldus.
+
+TIIMI LIIKMED:
+  Sandra Lannes
+  Sarah Lannes
+  Joosep Albre
+
+TIIMIKAASLASTE TÖÖJAOTUS:
+  Tööülesannete jagamisel tahtsime, et kõik saaksid proovida rammu nii HTML, CSS kui ka JavaScriptiga, niiet iga tiimiliige sai endale 
+  vähemalt ühe vahelehe, mida viimsitleda. Keegi ei piirdunud vaid oma vahelehe kallal nokitsemisega ning alati aidati kogu jõu ja
+  nõuga tiimikaaslaste töö edendamisele.
+
+
+
+ESINENUD RASKUSED, MIDA ÕPPISIME:
+  Kõige enam raskusi valmistas JavaScriptiga toimetamine, kuna meil puudusid varasemad teadmised selle programmeerimiskeele kohta.
+  
+  Töö käigus õppisime iseseisvalt väga palju HTML ja CSS kohta, natukene tutvust saime tehtud ka JavaScriptiga. Projekt oli väga kasulik,
+  kuna iseseisvalt õppimine tundub küll algselt keeruline, kuid selle läbi õpib kõige paremini!
+  
+  Või hoopis: https://docs.google.com/document/d/1a-gDlMIheAfpkJm5VR5jpNc6mJdBQagFqNupCy1hr7c/edit !!
+
+
+
+
