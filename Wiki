@@ -19,6 +19,8 @@ ESINENUD RASKUSED, MIDA ÕPPISIME:
   
   Töö käigus õppisime iseseisvalt väga palju HTML ja CSS kohta, natukene tutvust saime tehtud ka JavaScriptiga. Projekt oli väga kasulik,
   kuna iseseisvalt õppimine tundub küll algselt keeruline, kuid selle läbi õpib kõige paremini!
+  
+  Või hoopis: https://docs.google.com/document/d/1a-gDlMIheAfpkJm5VR5jpNc6mJdBQagFqNupCy1hr7c/edit !!
 
 
 
