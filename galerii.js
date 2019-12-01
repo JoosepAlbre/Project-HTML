@@ -27,4 +27,4 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-// https://www.w3schools.com/howto/howto_js_slideshow.asp
+//Allikas: https://www.w3schools.com/howto/howto_js_slideshow.asp (01.12.2019)

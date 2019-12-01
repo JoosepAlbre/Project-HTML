@@ -16,4 +16,4 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
-//https://www.w3schools.com/howto/howto_js_accordion.asp
+//Allikas: https://www.w3schools.com/howto/howto_js_accordion.asp (01.12.2019)

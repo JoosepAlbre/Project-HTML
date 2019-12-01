@@ -101,7 +101,7 @@ h1 {
     display: flex;
 }
 
-/* Jalutsi kood suuresti: https://codepen.io/scanfcode/pen/MEZPNd */
+/* Jalutsi kood suuresti: https://codepen.io/scanfcode/pen/MEZPNd (01.12.2019)*/
 
 .social-icons {
     padding-left: 0;
@@ -134,9 +134,6 @@ h1 {
     text-align: center;
     margin-right: 8px;
     border-radius: 100%;
-    -webkit-transition: all .2s linear;
-    -o-transition: all .2s linear;
-    transition: all .2s linear
 }
 
 .social-icons a:active,
